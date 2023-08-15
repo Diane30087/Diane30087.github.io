@@ -3,7 +3,7 @@
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" />
-        <title>Archives | Diane&#39;s first blog</title>
+        <title>如何制作太鼓达人（次郎）谱面 | Diane&#39;s first blog</title>
         <meta name="author" content="Diane30087" />
         <meta name="description" content="写的第一个博客" />
         <meta name="keywords" content="" />
@@ -28,6 +28,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -141,80 +145,57 @@
 </transition>
 
             <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+                <div class="article">
+    <div>
+        <h1>如何制作太鼓达人（次郎）谱面</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2023/8/14
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            
+            <span class="tag">
                 
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
-        
-        <div class="timeline" data-title="helloworld">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2023/8/13</div>
-                <a href="/2023/08/13/hello-world/">
-                    <h3>Hello World</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="welcome">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2023/8/14</div>
-                <a href="/2023/08/14/Welcome/">
-                    <h3>Welcome</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/Welcome/" style="color: #00a596">Welcome</a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="如何制作太鼓达人（次郎）谱面">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2023/8/14</div>
-                <a href="/2023/08/14/%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E5%A4%AA%E9%BC%93%E8%BE%BE%E4%BA%BA%EF%BC%88%E6%AC%A1%E9%83%8E%EF%BC%89%E8%B0%B1%E9%9D%A2%E2%80%9D/">
-                    <h3>如何制作太鼓达人（次郎）谱面</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%A4%AA%E9%BC%93%E8%BE%BE%E4%BA%BA/" style="color: #00a596">太鼓达人</a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
+                <a href="/tags/%E5%A4%AA%E9%BC%93%E8%BE%BE%E4%BA%BA/" style="color: #00a596">太鼓达人</a>
+            </span>
+            
+        </span>
         
     </div>
+    
+    <div class="content" v-pre>
+        <p>没时间写文章了，打…的是要补的<br>###谱面参数部分</p>
+<pre><code>TITLE:歌曲标题
+SUBTITLE:--歌曲副标题
+SONGVOL:歌曲音量
+...
+</code></pre>
+<p>###音符</p>
+<pre><code>小节用英语逗号隔开，for example:
+1000200010201011,
+</code></pre>
+<pre><code>1:咚
+...
+</code></pre>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
 </div>
 
                 <footer id="footer">
@@ -245,6 +226,12 @@
             
         </div>
         <script src="/js/main.js"></script>
+        
+        
+
+
+
+
         
     </body>
 </html>
